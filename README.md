@@ -53,11 +53,12 @@ Cursor movement dynamically queries local feedback strength.
 Random sampling is used to analyze feedback distributions across images.
 
 ## 🔹 Installation
-bash```pip install numpy opencv-python matplotlib
+
+```pip install numpy opencv-python matplotlib
 ```
-bash```python main.py
+```python main.py
 ```
-**~The script will:**
+**The script will:**
 
 - Process all images in the dataset
 

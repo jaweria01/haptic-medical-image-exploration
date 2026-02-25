@@ -1,5 +1,5 @@
-# haptic-medical-image-exploration
-## Exploring Structure-Driven Haptic Signal Simulation for Interactive Medical Image Navigation
+# Haptic Medical Image Exploration
+# Exploring Structure-Driven Haptic Signal Simulation for Interactive Medical Image Navigation
 ## Project Overview
 
 This project presents a software-based prototype for simulating haptic feedback from medical images. The system processes MRI scans to extract structural boundaries and converts them into simulated tactile signals that represent variations in tissue structure. These signals are then mapped to an interactive visualization interface, allowing users to explore the image while observing changes in feedback intensity.
@@ -29,7 +29,7 @@ This project explores how structural information in medical images can be transl
 - Quantitative feedback analysis
 
 - Reproducible result generation
-- 
+  
 ## 🔹 Methodology
 
 **1. Image Acquisition**
@@ -57,7 +57,7 @@ bash```pip install numpy opencv-python matplotlib
 ```
 bash```python main.py
 ```
-*The script will:*
+**~The script will:**
 
 - Process all images in the dataset
 

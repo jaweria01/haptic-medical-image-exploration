@@ -55,6 +55,7 @@ Random sampling is used to analyze feedback distributions across images.
 ## 🔹 Installation
 
 `pip install numpy opencv-python matplotlib`
+
 `python main.py`
 
 **The script will:**

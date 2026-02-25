@@ -13,7 +13,8 @@ This work aims to investigate how structure-driven feedback mechanisms could sup
 Haptic feedback plays a critical role in enhancing perception and interaction in immersive interfaces. While physical haptic devices are commonly used in surgical simulators and rehabilitation systems, software-based approximations can provide a scalable alternative for exploratory research.
 
 This project explores how structural information in medical images can be translated into simulated tactile signals, supporting the development of perception-aware interfaces for medical visualization.
-🔹 Features
+
+## 🔹 Features
 
 - MRI image processing pipeline
 
@@ -28,19 +29,65 @@ This project explores how structural information in medical images can be transl
 - Quantitative feedback analysis
 
 - Reproducible result generation
-🔹 Methodology
+- 
+## 🔹 Methodology
 
 **1. Image Acquisition**
+
 MRI images are loaded from a local dataset.
 
 **2. Structure Extraction**
+
 Gaussian smoothing and Canny edge detection identify tissue boundaries.
 
 **3. Haptic Signal Simulation**
+
 Edge strength is normalized to represent feedback intensity.
 
 **4. Interactive Visualization**
+
 Cursor movement dynamically queries local feedback strength.
 
 **5. Dataset-Level Analysis**
+
 Random sampling is used to analyze feedback distributions across images.
+
+## 🔹 Installation
+bash```
+pip install numpy opencv-python matplotlib
+```
+bash```python main.py
+```
+*The script will:*
+
+- Process all images in the dataset
+
+- Save structural and feedback outputs
+
+- Launch an interactive visualization window
+
+- Generate a feedback distribution plot
+
+## 🔹 Research Perspective
+
+This prototype investigates how structure-driven computational feedback could support tactile perception in digital environments. The approach may inform future work in:
+
+- haptic-assisted medical visualization
+
+- perception-aware human–computer interfaces
+
+- virtual surgical training environments
+
+- rehabilitation interaction systems
+  
+## 🔹 Future Work
+
+- Incorporating depth estimation for richer tactile mapping
+
+- Learning feedback models using machine learning
+
+- Extending to 3D volumetric medical imaging
+
+- Integrating with physical haptic devices
+
+- Conducting user studies on perception improvement
